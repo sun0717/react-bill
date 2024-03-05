@@ -44,7 +44,7 @@ npm i -D json-server
 
 要用package-lock的版本，不然会报错
 
-# antd-mobile
+## antd-mobile
 
 主题色定制(全局，局部):
 
@@ -54,3 +54,8 @@ npm i -D json-server
     --adm-color-primary: #xxx;
 }
 ```
+
+## Redux
+
+### 基于RTK管理账目列表
+
