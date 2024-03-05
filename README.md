@@ -59,3 +59,22 @@ npm i -D json-server
 
 ### 基于RTK管理账目列表
 
+```js
+const billStore = createSlice({
+    name: 'bill',
+    // 数据状态 state 
+    initialState: {
+        billList: []
+    },
+    reducers: {
+        // 通过state 可以获取billList
+        setBillList(state, action) {
+            state.billList = action.payload
+        }
+    }
+})
+```
+
+## Tabbar
+feat: 配合路由 : useNavigate()
+nofix: 激活color
