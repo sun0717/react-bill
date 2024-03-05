@@ -90,3 +90,9 @@ nofix: 未居中，靠左侧
 ```js
 <span className="arrow expand" 更改为 {classNames('arrow', visible && 'expand')}></span>
 ```
+### 时间
+
+1. dayjs 做时间格式化，管理当前年月
+```js
+const formatDate = dayjs(date).format('YYYY-MM')
+```
