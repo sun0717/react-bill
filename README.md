@@ -78,3 +78,15 @@ const billStore = createSlice({
 ## Tabbar
 feat: 配合路由 : useNavigate()
 nofix: 激活color
+
+## Month组件
+nofix: 未居中，靠左侧
+
+### 弹框
+
+1. 点击打开事件选择弹框（√）
+2. 点击取消/却惹按钮以及蒙层区域都可以关闭弹框(用组件的属性√)
+3. 根据当前弹框打开的状态控制 expend 类名是否存在(动态类名√)
+```js
+<span className="arrow expand" 更改为 {classNames('arrow', visible && 'expand')}></span>
+```
